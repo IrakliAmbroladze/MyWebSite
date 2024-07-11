@@ -1,0 +1,13 @@
+/* public/style.css */
+body {
+  font-family: Arial, sans-serif;
+}
+
+form {
+  margin-top: 20px;
+}
+
+input, button {
+  display: block;
+  margin: 10px 0;
+}
