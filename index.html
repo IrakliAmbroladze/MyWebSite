@@ -1,22 +1,21 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>My Website</title>
-  <link rel="stylesheet" href="style.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-  <!-- <h1>Welcome to My Website</h1> -->
-  <h1 style="padding-left: 250px;">T  I  K  U  N  I</h1>
-  <!-- <form id="userForm">
-    <input type="text" id="name" placeholder="Name" required>
-    <input type="email" id="email" placeholder="Email" required>
-    <button type="submit">Submit</button>
-  </form> -->
-<!--   <img src="img/irakli.jpg"> -->
-  <!-- <h2>Customers</h2> -->
-  <ul id="userList"></ul>
-  <script src="script.js"></script>
+    <div class="slider">
+        <div class="slides">
+            <div class="slide"><img src="image1.jpg" alt="Image 1"></div>
+            <div class="slide"><img src="image2.jpg" alt="Image 2"></div>
+            <div class="slide"><img src="image3.jpg" alt="Image 3"></div>
+        </div>
+        <a class="prev" onclick="moveSlide(-1)">&#10094;</a>
+        <a class="next" onclick="moveSlide(1)">&#10095;</a>
+    </div>
+    <script src="script.js"></script>
 </body>
 </html>
